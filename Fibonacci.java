@@ -20,7 +20,7 @@ public class Fibonacci {
     public static void main(String[] args) {
         // TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!\n");
+        System.out.printf("Hello and Welcome!\n");
 
         for (int i = 0; i <= 100; i++) {
             long fib = fibonacci(i);
@@ -30,4 +30,5 @@ public class Fibonacci {
         }
     }
 }
+
 
