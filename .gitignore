@@ -5,3 +5,5 @@
 # Ignore compiled output folder
 out/
 
+# Ignore bytecodes
+*.class
