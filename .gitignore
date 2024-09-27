@@ -1,6 +1,7 @@
 # Ignore IntelliJ IDEA project-specific files
 .idea/
 *.iml
+.DS_Store
 
 # Ignore compiled output folder
 out/
