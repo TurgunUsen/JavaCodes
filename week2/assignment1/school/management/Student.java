@@ -1,7 +1,5 @@
 package week2.assignment1.school.management;
-
 import week2.assignment1.school.Person;
-
 import java.util.ArrayList;
 
 public class Student extends Person {
@@ -10,9 +8,10 @@ public class Student extends Person {
     private ArrayList<String> enrolledCourses;
     private double tuition;
 
+    // Constructor
     public Student( String name, int age, int studentID){
         super(name, age); // calling Person class
-        this.age = age;
+        this.studentID = studentID;
         this.enrolledCourses = new ArrayList<>();
     }
 
@@ -28,5 +27,16 @@ public class Student extends Person {
         enrolledCourses.add(course);
     }
 
+    // Getter
+    public double getTuition(double tuition){
+        return tuition;
+    }
+
+    // Setter, calculates tuition by number of courses
+    public void setTuition(double tuition){
+        int tuitionPerCourse = 500;
+        int numberOfCourses = enrolledCourses.size();
+        this.tuition = numberOfCourses * tuitionPerCourse;
+    }
 
 }
