@@ -16,5 +16,17 @@ public class Student extends Person {
         this.enrolledCourses = new ArrayList<>();
     }
 
+    // Accepts array of courses
+    public void enrollCourses(String[] courses){
+        for (String course : courses){
+            enrolledCourses.add(course);
+        }
+    }
+
+    // Accepts a single course
+    public void enrollCourses(String course){
+        enrolledCourses.add(course);
+    }
+
 
 }
