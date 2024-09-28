@@ -20,11 +20,13 @@ public class Student extends Person {
         for (String course : courses){
             enrolledCourses.add(course);
         }
+        calculateTuition();
     }
 
     // Accepts a single course
     public void enrollCourses(String course){
         enrolledCourses.add(course);
+        calculateTuition();
     }
 
     // Getter
@@ -32,8 +34,8 @@ public class Student extends Person {
         return tuition;
     }
 
-    // Setter, calculates tuition by number of courses
-    public void setTuition(double tuition){
+    // Calculate the tuition
+    public void calculateTuition(){
         int tuitionPerCourse = 500;
         int numberOfCourses = enrolledCourses.size();
         this.tuition = numberOfCourses * tuitionPerCourse;
