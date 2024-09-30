@@ -21,6 +21,9 @@ public class CourseManager {
 
     // Loops through the list and displays the details of all students
     public void displayAllStudents(){
-
+        System.out.println("List of All Students:");
+        for (int i = 0; i < studentCount; i++){
+            students[i].displayDetails();
+        }
     }
 }

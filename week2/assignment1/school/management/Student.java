@@ -41,4 +41,12 @@ public class Student extends Person {
         this.tuition = numberOfCourses * tuitionPerCourse;
     }
 
+    // Display student detail
+    public void displayDetails(){
+        super.displayDetails();
+        System.out.println("Student ID: " + studentID);
+        System.out.println("Enrolled Courses: " + enrolledCourses);
+        System.out.println("Tuition: $" + tuition);
+    }
+
 }
