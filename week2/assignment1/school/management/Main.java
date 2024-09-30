@@ -21,7 +21,7 @@ public class Main {
         student4.enrollCourses("Math");
 
         // Display students tuition fees
-        System.out.println("John's tuition fee: $" + student1.getTuition());
+        System.out.println("\nJohn's tuition fee: $" + student1.getTuition());
         System.out.println("Robert's tuition fee: $" + student2.getTuition());
         System.out.println("Alex's tuition fee: $" + student3.getTuition());
         System.out.println("Johnathan's tuition fee: $" + student4.getTuition());

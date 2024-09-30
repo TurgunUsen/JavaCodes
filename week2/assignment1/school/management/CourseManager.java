@@ -8,12 +8,12 @@ public class CourseManager {
 
     // Constructor
     public CourseManager(){
-        Student[] students = new Student[0];
+        students = new Student[0];
     }
 
     // Adds students to the array
     public void addStudent(Student student){
-    students = Arrays.copyOf(students, studentCount++);
+    students = Arrays.copyOf(students, studentCount + 1);
     students[studentCount] = student;
     studentCount++;
 
@@ -21,7 +21,7 @@ public class CourseManager {
 
     // Loops through the list and displays the details of all students
     public void displayAllStudents(){
-        System.out.println("List of All Students:");
+        System.out.println("\nList of All Students:");
         for (int i = 0; i < studentCount; i++){
             students[i].displayDetails();
         }

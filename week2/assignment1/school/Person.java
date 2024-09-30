@@ -11,7 +11,7 @@ public class Person{
         this.age = age;
     }
     public void displayDetails(){
-        System.out.println("Name: " + name + ", Age: " + age);
+        System.out.println("\nName: " + name + ", Age: " + age);
     }
 
 }
