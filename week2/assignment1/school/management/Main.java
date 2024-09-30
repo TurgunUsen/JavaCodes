@@ -26,6 +26,16 @@ public class Main {
         System.out.println("Alex's tuition fee: $" + student3.getTuition());
         System.out.println("Johnathan's tuition fee: $" + student4.getTuition());
 
+        // Add students
+        CourseManager courseManager = new CourseManager();
+
+        courseManager.addStudent(student1);
+        courseManager.addStudent(student2);
+        courseManager.addStudent(student3);
+        courseManager.addStudent(student4);
+
+        // Display details of all enrolled students
+        courseManager.displayAllStudents();
     }
 
 }
