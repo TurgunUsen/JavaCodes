@@ -30,7 +30,7 @@ public class Student extends Person {
     }
 
     // Getter
-    public double getTuition(double tuition){
+    public double getTuition(){
         return tuition;
     }
 
