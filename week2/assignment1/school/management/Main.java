@@ -10,6 +10,18 @@ public class Main {
         Student student3 = new Student("Alex", 20, 100003);
         Student student4 = new Student("Johnathan", 18, 100004);
 
+        // Enroll students in array
+        String[] enrollStudent1 = {"Math", "Chemistry", "Physics", "Biology"};
+        String[] enrollStudent2 = {"Math", "Physics"};
+        student1.enrollCourses(enrollStudent1);
+        student2.enrollCourses(enrollStudent2);
+
+        // Enroll students by a single course
+        student3.enrollCourses("Biology");
+        student4.enrollCourses("Math");
+
+
+
 
     }
 
