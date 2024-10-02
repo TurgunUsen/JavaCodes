@@ -20,6 +20,10 @@ public class Main {
         student3.enrollCourses("Biology");
         student4.enrollCourses("Math");
 
+        // Drop courses
+        String[] droppedCourses = {"Biology", "Chemistry"};
+        student1.dropCourses(droppedCourses);
+
         // Display students tuition fees
         System.out.println("\nJohn's tuition fee: $" + student1.getTuition());
         System.out.println("Robert's tuition fee: $" + student2.getTuition());
