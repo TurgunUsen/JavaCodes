@@ -29,6 +29,14 @@ public class Student extends Person {
         calculateTuition();
     }
 
+    // Drop the courses
+    public void dropCourses(String[] courses){
+        for (String course : courses){
+            enrolledCourses.remove(course);
+        }
+        calculateTuition();
+    }
+
     // Getter
     public double getTuition(){
         return tuition;
