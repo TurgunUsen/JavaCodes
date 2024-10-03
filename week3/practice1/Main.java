@@ -1,3 +1,4 @@
+package week3.practice1;
 import java.util.HashMap;
 
 public class Main {

@@ -1,3 +1,4 @@
+package week1.assignment2;
 public class PrimeCheck {
 
     static boolean isPrime(int number){

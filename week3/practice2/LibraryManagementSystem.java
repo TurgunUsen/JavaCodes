@@ -1,3 +1,4 @@
+package week3.practice2;
 import java.util.*;
 
 /*

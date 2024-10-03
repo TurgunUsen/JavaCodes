@@ -1,3 +1,4 @@
+package week1.assignment1;
 import java.util.HashMap;
 
 public class Fibonacci {

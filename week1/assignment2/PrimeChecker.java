@@ -1,3 +1,4 @@
+package week1.assignment2;
 public class PrimeChecker {
 
     // Static method to check if a number is prime
