@@ -1,4 +1,5 @@
 package week3.assignment;
+import java.util.*;
 
 public class Contact{
 
@@ -31,4 +32,19 @@ public String getEmail(){
 public String toString() {
     return "Name: " + name + ", Phone: " + phoneNumber + ", Email: " + email;
     }
+
+ArrayList<Contact> contacts = new ArrayList<>();
+
+public void addContact(Contact contact) {
+
+    // Check for duplicates based on name
+    for (Contact c : contacts) {
+        if (c.getName().equalsIgnoreCase(contact.getName())) {
+            System.out.println("Contact already exists!");
+            return;
+        }
+    }
+    contacts.add(contact);
+    System.out.println("Contact added: " + contact);
+}
 }
