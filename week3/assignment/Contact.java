@@ -47,4 +47,19 @@ public void addContact(Contact contact) {
     contacts.add(contact);
     System.out.println("Contact added: " + contact);
 }
+
+HashMap<String, String> phoneBook = new HashMap<>();
+
+public void addContactToPhoneBook(Contact contact) {
+
+    phoneBook.put(contact.getName(), contact.getPhoneNumber());
+}
+
+public void searchContact(String name) {
+    if (phoneBook.containsKey(name)) {
+        System.out.println("Phone number for " + name + ": " + phoneBook.get(name));
+    } else {
+        System.out.println("Contact not found.");
+        }
+}
 }
