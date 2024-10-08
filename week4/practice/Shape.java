@@ -1,3 +1,5 @@
+package week4.practice;
+
 public abstract class Shape {
     String shapeType;
 

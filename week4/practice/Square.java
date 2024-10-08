@@ -1,3 +1,5 @@
+package week4.practice;
+
 public class Square extends Rectangle {
     public Square(double side) {
         super(side, side);
