@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.HashSet;
 
 public class ContactManager {
+
     // ArrayList for storing contacts
     private ArrayList<Contact> contacts = new ArrayList<>();
     // HashMap for phone number lookup by contact name

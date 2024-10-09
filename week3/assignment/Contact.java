@@ -26,7 +26,7 @@ public String getEmail(){
     return email;
 }
 
-// Overriding toString to display contact details
+// Overriding toString() method to display contact details
 @Override
 public String toString() {
     return "Name: " + name + ", Phone: " + phoneNumber + ", Email: " + email;
