@@ -47,7 +47,7 @@ public class ContactManager {
     // Search for a contact by name and display their phone number
     public void searchContact(String name) {
         if (phoneBook.containsKey(name)) {
-            System.out.println("Phone number for " + name + ": " + phoneBook.get(name));
+            System.out.println("\nPhone number for " + name + ": " + phoneBook.get(name));
         } else {
             System.out.println("Contact not found.");
         }
@@ -58,7 +58,7 @@ public class ContactManager {
         if (emailDomains.isEmpty()) {
             System.out.println("No email domains available.");
         } else {
-            System.out.println("Unique email domains: " + emailDomains);
+            System.out.println("\nUnique email domains: " + emailDomains);
         }
     }
 }
