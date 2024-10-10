@@ -22,6 +22,7 @@ class LibraryManagementSystem {
 
     // Method to add books to the inventory
     public void addBook(String book, int copies) {
+
         availability.put(book, availability.getOrDefault(book,0)+copies);
     }
 
@@ -41,6 +42,7 @@ class LibraryManagementSystem {
 
     // Method to return a book
     public void returnBook(String book) {
+
         if(borrowRequests.containsKey(book) && !borrowRequests.get(book).isEmpty()) {
             borrowRequests.get(book).remove();
 
@@ -52,6 +54,7 @@ class LibraryManagementSystem {
 
     // Method to display the current status of the library (inventory and borrowed books)
     public void displayLibraryStatus() {
+
         System.out.println("\nLibrary Inventory:");
         for (String book : availability.keySet()) {
             System.out.println(book + " - Copies Available: " + availability.get(book));
@@ -71,6 +74,7 @@ class LibraryManagementSystem {
     }
 
     public static void main(String[] args) {
+
         LibraryManagementSystem library = new LibraryManagementSystem();
 
         // Adding books to the library
