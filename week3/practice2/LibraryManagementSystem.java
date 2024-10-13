@@ -7,8 +7,8 @@ Store a list of books (using an ArrayList).
 Manage a list of borrowed books (using a HashSet, since borrowed books should be unique).
 Track book borrow requests in the order they are received (using a Deque).
 Keep track of how many copies of each book are available in the library (using a HashMap).
+*/
 
- */
 class LibraryManagementSystem {
 
     // keeps track of how many book are available.
