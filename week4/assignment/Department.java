@@ -8,20 +8,20 @@ public class Department{
     private ArrayList<Course> Courses;
 
   // Constructor
- public Department(String name) {
-    this.name = name;
-    this.professors = new ArrayList<>();
-    this.courses = new ArrayList<>();
-    }
+  public Department(String name) {
+      this.name = name;
+      this.professors = new ArrayList<>();
+      this.courses = new ArrayList<>();
+  }
 
   // Add Professor
   public void addProfessor(Professor professor){
-    this.professors.add(professor);
+      this.professors.add(professor);
   }
 
   // Add Course
   public void addCourse(Course course){
-    this.courses.add(course);
+      this.courses.add(course);
   }
 
   // Getters
