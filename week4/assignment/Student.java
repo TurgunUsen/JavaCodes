@@ -16,6 +16,10 @@ public class Student {
     public void registerForCourse(Course course){
         grades.put(courseName, grade);
     }
+    // Set grade for a course
+    public void setGrade(String courseName, int grade){
+        grades.put(courseName, grade);
+    }
     //Get grade report
     public void displayGradeReport(){
         System.out.println("Grade report for " + name + ":");
