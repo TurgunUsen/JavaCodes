@@ -14,7 +14,7 @@ public class Student {
     }
     // Register for a course
     public void registerForCourse(Course course){
-        grades.put(courseName, grade);
+        course.addStudent(this);
     }
     // Set grade for a course
     public void setGrade(String courseName, int grade){

@@ -10,7 +10,7 @@ public class AdjunctProfessor extends Professor {
     // Override teachCourse
     @Override
     public void teachCourse(){
-        system.out.println("Adjunct Professor " + getName() + " is teaching." );
+        System.out.println("Adjunct Professor " + getName() + " is teaching." );
         }
 
     // Overide calculateSalary

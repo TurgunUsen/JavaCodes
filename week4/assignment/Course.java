@@ -1,5 +1,4 @@
 package week4.assignment;
-
 import java.util.ArrayList;
 
 public class Course {
@@ -15,7 +14,7 @@ public class Course {
     }
     // Add student to the course
     public void addStudent(Student student){
-        student.add(student);
+        students.add(student);
     }
     // Getters
     public String getName(){

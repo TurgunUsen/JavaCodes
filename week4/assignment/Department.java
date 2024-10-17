@@ -4,8 +4,8 @@ import java.util.ArrayList;
 public class Department{
   
     private String name;
-    private ArrayList<Professor> Professors;
-    private ArrayList<Course> Courses;
+    private ArrayList<Professor> professors;
+    private ArrayList<Course> courses;
 
   // Constructor
   public Department(String name) {
@@ -30,11 +30,17 @@ public class Department{
   }
 
   public ArrayList<Course> getCourses(){
-    return courses
+    return courses;
   }
 
   // Display department details
   public void displayDepartmentDetails(){
-    
+    System.out.println("Departmetn: " + name);
+    for (Professor professor : professors){
+        professor.teachCourse();
+    }
+    for (Course course : courses){
+        System.out.println("Course: " + course.getName());
+    }
   }
 }
