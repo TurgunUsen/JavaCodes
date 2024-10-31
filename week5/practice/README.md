@@ -14,6 +14,7 @@ Alice,85
 Bob,95
 Charlie,abc
 Dave,78
+```
 
 ### Tasks:
 1. **Read the file** using `FileReader` and `BufferedReader`.
