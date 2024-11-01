@@ -1,4 +1,4 @@
-# Assignment
+# Objective:
 
 ## Part 1: File Operations
 
