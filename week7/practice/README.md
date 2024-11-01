@@ -5,6 +5,8 @@ Write a Java program to create, save, read, and update a to-do list stored in a 
 
 ## Instructions
 
+# Part 1:
+
 ### Create the ToDo Class
 Define a `ToDo` class with the following properties:
 - `int id` – a unique identifier for each task.
@@ -143,7 +145,7 @@ VALUES (101, 201),
 (103, 203);
 
 ```
-# Step 3: Sample Queries for Practice
+# Part 3: Sample Queries for Practice
 
 These queries cover basic SQL operations, joins, filtering, and aggregations.
 
