@@ -1,4 +1,4 @@
-package week2.assignment1.school.management;
+package week2.assignment.school.management;
 import week2.assignment1.school.Person;
 import java.util.ArrayList;
 
