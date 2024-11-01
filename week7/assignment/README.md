@@ -1,8 +1,8 @@
 # Objective:
 
-## Part 1: File Operations
+## Part 1: File Operations:
 
-### Homework Assignment: Student Management System Using Files
+### Student Management System Using Files
 
 **Objective**: Write a Java program that uses files to manage a list of students, including their names, IDs, and grades. Practice creating, reading, and writing data to files.
 
