@@ -1,3 +1,4 @@
+package week7.assignment;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;

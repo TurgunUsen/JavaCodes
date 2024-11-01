@@ -1,3 +1,4 @@
+package week7.assignment;
 import java.io.IOException;
 import java.util.Scanner;
 
